@@ -1,0 +1,31 @@
+.info-secundaria-bg {
+  background: var(--c1);
+  padding: 3.75rem 0rem;
+}
+.info-secundaria-container {
+  max-width: 85.313rem;
+  margin: 0 auto;
+  padding: 0rem 20px;
+}
+.titulo-info-secundaria {
+  text-align: center;
+}
+.info-secundaria-box {
+  background: var(--c0);
+  padding: 3.75rem;
+  border-radius: 0.5rem;
+}
+.info-secundaria-container-box {
+  margin-top: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+@media (max-width: 75rem) {
+  .info-secundaria-container-box {
+    grid-template-columns: 1fr;
+  }
+}

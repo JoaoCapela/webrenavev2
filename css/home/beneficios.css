@@ -1,0 +1,91 @@
+.beneficios-container {
+  max-width: 85.25rem;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-bottom: 5rem;
+}
+.beneficios-container h1 {
+  padding-top: 3.125rem;
+  margin-bottom: 3.75rem;
+  position: relative;
+}
+.beneficios-container h1::after {
+  content: "";
+  background: #00bf71;
+  width: 6.25rem;
+  height: 0.313rem;
+  position: absolute;
+  bottom: -0.625rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.beneficios-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  grid-gap: 1.875rem;
+}
+.beneficio {
+  text-align: center;
+  padding: 1.563rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.5s, background 0.5s;
+}
+.beneficio i {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+  color: #00bf71;
+}
+.beneficio h2 {
+  margin-bottom: 0.5rem;
+}
+.beneficio:hover {
+  background: #00bf71;
+  color: #fff;
+  transform: scale(1.05);
+}
+.beneficio:hover i {
+  color: #fff;
+}
+.video {
+  margin: 5rem 0px 5rem 0px;
+  text-align: center;
+}
+.video-border {
+  border-radius: 0.25rem;
+}
+@media (max-width: 87.5rem) {
+  .video-border {
+    width: 43.625rem;
+    height: 24.5rem;
+  }
+}
+@media (max-width: 75rem) {
+  .beneficios-container {
+    margin-bottom: 1.875rem;
+  }
+  .video {
+    margin: 1.875rem 0px 1.875rem 0px;
+  }
+}
+@media (max-width: 46.875rem) {
+  .video-border {
+    width: 32.688rem;
+    height: 18.375rem;
+  }
+}
+@media (max-width: 37.5rem) {
+  .video-border {
+    width: 18.688rem;
+    height: 10.5rem;
+  }
+}
+@media (max-width: 21.875rem) {
+  .video-border {
+    width: 12.5rem;
+    height: 7rem;
+  }
+}

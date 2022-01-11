@@ -1,0 +1,34 @@
+:root {
+  --c0: #fff;
+  --c1: #dddddd;
+  --c2: #00ca76;
+  --c3: #00bf71;
+  --c4: #00775d;
+  --c5: #007058;
+  --c6: linear-gradient(to right, #00bf71 0%, #007058 100%);
+  --c7: linear-gradient(to right, #00ca76 0%, #00775d 100%);
+  --c8:   background-image: linear-gradient(
+    to right,
+    rgba(1, 209, 123, 0.1) 0%,
+    rgba(1, 209, 123, 0.1) 100%
+  );
+  --c9: rgba(0, 0, 0, 0.1);
+  --c10: #1C2932;
+  --c11: #000000;
+}
+
+
+/* 
+var(--c0);
+var(--c1);
+var(--c2);
+var(--c3);
+var(--c4);
+var(--c5);
+var(--c6);
+var(--c7);
+var(--c8);
+var(--c9);
+var(--c10);
+var(--c11); 
+*/
